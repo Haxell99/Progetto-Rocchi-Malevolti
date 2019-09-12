@@ -15,9 +15,9 @@ MainApp::~MainApp() {
 }
 
 bool MainApp::OnInit() {
-    mFrame = new TitleScreen();
+    mFrame = new MainFrame();
     mFrame -> Show();
-    mFrame -> ShowFullScreen(true);
+    //mFrame -> ShowFullScreen(true);
 
     return true;
 }

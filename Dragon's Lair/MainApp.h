@@ -6,7 +6,7 @@
 #define PROVACOMBATTIMENTO_MAINAPP_H
 
 #include "wx/wx.h"
-#include "TitleScreen.h"
+#include "MainFrame.h"
 
 class MainApp : public wxApp {
 public:
@@ -15,12 +15,16 @@ public:
 
     bool OnInit();
 
-    void OnGameStart();
+    MainFrame *getMFrame() const {
+        return mFrame;
+    }
 
 private:
-    wxFrame* mFrame = nullptr;
+    MainFrame* mFrame = nullptr;
 
 };
+
+DECLARE_APP(MainApp);
 
 
 #endif //PROVACOMBATTIMENTO_MAINAPP_H

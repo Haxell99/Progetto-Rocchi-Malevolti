@@ -19,8 +19,8 @@ private:
     wxStaticBitmap* bitTitle = nullptr;
     wxFont* titleFont = nullptr;
 
-
 };
+
 
 
 #endif //DRAGON_S_LAIR_TITLEPANEL_H

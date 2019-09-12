@@ -24,3 +24,9 @@ TitlePanel::TitlePanel(wxWindow* id) : wxPanel(id, wxID_ANY) {
     fSizer -> Layout();
 
 }
+
+
+
+
+
+
