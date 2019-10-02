@@ -13,8 +13,18 @@ public:
     ~CharSelPanel();
 
 private:
-    wxBoxSizer* vSizer = nullptr;
-    wxGridSizer* gSizer = nullptr;
+    wxStaticText* text = nullptr;
+
+    wxBoxSizer* layout = nullptr;
+
+    wxRadioBox* chooseSuppChar = nullptr;
+    wxRadioBox* chooseDpsChar = nullptr;
+    wxRadioBox* chooseTankChar = nullptr;
+    wxArrayString suppClasses = wxArrayString();
+    wxArrayString dpsClasses = wxArrayString();
+    wxArrayString tankClasses = wxArrayString();
+
+    wxButton* confirm = nullptr;
 
 };
 

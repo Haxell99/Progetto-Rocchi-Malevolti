@@ -6,6 +6,8 @@
 
 BEGIN_EVENT_TABLE(MainFrame, wxFrame)
     EVT_BUTTON(10000, MainFrame::StartCampain)
+    EVT_BUTTON(10001, MainFrame::SetPartyMembers)
+    EVT_BUTTON(10002, MainFrame::StartCombat)
 END_EVENT_TABLE()
 
 MainFrame::MainFrame() : wxFrame(nullptr, wxID_ANY, "Dragon's Lair"){
@@ -21,6 +23,16 @@ void MainFrame::StartCampain(wxCommandEvent &evt) {
     charSelPanel = new CharSelPanel(this);
 }
 
+void MainFrame::SetPartyMembers(wxCommandEvent &evt) {
+    charSelPanel -> Destroy();
+    dungeonMap = new DungeonMap(this, currentLevel);
+    currentLevel ++;
+}
+
+void MainFrame::StartCombat(wxCommandEvent &evt) {
+    dungeonMap -> Destroy();
+    combatPhase = new CombatPhase(this, currentLevel);
+}
 
 
 

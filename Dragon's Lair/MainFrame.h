@@ -8,6 +8,8 @@
 #include "wx/wx.h"
 #include "TitlePanel.h"
 #include "CharSelPanel.h"
+#include "DungeonMap.h"
+#include "CombatPhase.h"
 
 class MainFrame : public wxFrame {
 public:
@@ -18,6 +20,9 @@ public:
 
     void StartCampain(wxCommandEvent & evt);
 
+    void SetPartyMembers(wxCommandEvent &evt);
+
+    void StartCombat(wxCommandEvent &evt);
 
     //Getter and Setter
 
@@ -30,6 +35,12 @@ private:
 
     TitlePanel* titlePanel = nullptr;
     CharSelPanel* charSelPanel = nullptr;
+    DungeonMap* dungeonMap = nullptr;
+    CombatPhase* combatPhase = nullptr;
+
+
+
+    int currentLevel = 0;
 
 };
 
