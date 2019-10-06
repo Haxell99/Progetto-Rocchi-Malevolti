@@ -3,6 +3,8 @@
 //
 
 #include "TitlePanel.h"
+#include "wx/stdpaths.h"
+#include "wx/filename.h"
 
 TitlePanel::~TitlePanel() {
 
@@ -11,8 +13,14 @@ TitlePanel::~TitlePanel() {
 TitlePanel::TitlePanel(wxWindow* id) : wxPanel(id, wxID_ANY) {
     fSizer = new wxGridSizer (2,1,0,0);
 
+    wxStandardPaths titlep = wxStandardPaths::Get();
+    wxFileName titlepath = titlep.GetResourcesDir();
+    titlepath.AppendDir("bitmaps");
+    titlepath.SetName("titolo");
+    titlepath.SetExt("bmp");
+
     wxInitAllImageHandlers();
-    title = new wxBitmap("/home/haxell99/Scrivania/bitmap_sbubba/titolo.bmp", wxBITMAP_TYPE_BMP);
+    title = new wxBitmap(wxString(titlepath.GetFullPath(wxPATH_NATIVE)) , wxBITMAP_TYPE_BMP);
     bitTitle = new wxStaticBitmap(this, wxID_ANY, *title);
     fSizer -> Add(bitTitle, wxEXPAND | wxALL , wxALIGN_CENTER);
 

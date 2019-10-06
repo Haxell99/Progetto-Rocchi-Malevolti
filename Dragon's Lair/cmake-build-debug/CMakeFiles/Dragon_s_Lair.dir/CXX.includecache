@@ -6,65 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/haxell99/Scrivania/Dragon's Lair/AutomatedSphere.cpp
-AutomatedSphere.h
-/home/haxell99/Scrivania/Dragon's Lair/AutomatedSphere.h
-
-/home/haxell99/Scrivania/Dragon's Lair/AutomatedSphere.h
-Enemy.h
-/home/haxell99/Scrivania/Dragon's Lair/Enemy.h
-
-/home/haxell99/Scrivania/Dragon's Lair/CharSelPanel.h
-wx/wx.h
-/home/haxell99/Scrivania/Dragon's Lair/wx/wx.h
-
-/home/haxell99/Scrivania/Dragon's Lair/CombatPhase.cpp
-CombatPhase.h
-/home/haxell99/Scrivania/Dragon's Lair/CombatPhase.h
-
-/home/haxell99/Scrivania/Dragon's Lair/CombatPhase.h
-wx/wx.h
-/home/haxell99/Scrivania/Dragon's Lair/wx/wx.h
-AutomatedSphere.h
-/home/haxell99/Scrivania/Dragon's Lair/AutomatedSphere.h
-
-/home/haxell99/Scrivania/Dragon's Lair/DungeonMap.h
-wx/wx.h
-/home/haxell99/Scrivania/Dragon's Lair/wx/wx.h
-
-/home/haxell99/Scrivania/Dragon's Lair/Enemy.h
-GameCharacter.h
-/home/haxell99/Scrivania/Dragon's Lair/GameCharacter.h
-
-/home/haxell99/Scrivania/Dragon's Lair/GameCharacter.h
-iostream
--
-
-/home/haxell99/Scrivania/Dragon's Lair/MainApp.cpp
-MainApp.h
-/home/haxell99/Scrivania/Dragon's Lair/MainApp.h
-
-/home/haxell99/Scrivania/Dragon's Lair/MainApp.h
-wx/wx.h
-/home/haxell99/Scrivania/Dragon's Lair/wx/wx.h
-MainFrame.h
-/home/haxell99/Scrivania/Dragon's Lair/MainFrame.h
-
-/home/haxell99/Scrivania/Dragon's Lair/MainFrame.cpp
-MainFrame.h
-/home/haxell99/Scrivania/Dragon's Lair/MainFrame.h
-
-/home/haxell99/Scrivania/Dragon's Lair/MainFrame.h
-wx/wx.h
-/home/haxell99/Scrivania/Dragon's Lair/wx/wx.h
+/home/haxell99/Scrivania/Dragon's Lair/TitlePanel.cpp
 TitlePanel.h
 /home/haxell99/Scrivania/Dragon's Lair/TitlePanel.h
-CharSelPanel.h
-/home/haxell99/Scrivania/Dragon's Lair/CharSelPanel.h
-DungeonMap.h
-/home/haxell99/Scrivania/Dragon's Lair/DungeonMap.h
-CombatPhase.h
-/home/haxell99/Scrivania/Dragon's Lair/CombatPhase.h
+wx/stdpaths.h
+/home/haxell99/Scrivania/Dragon's Lair/wx/stdpaths.h
+wx/filename.h
+/home/haxell99/Scrivania/Dragon's Lair/wx/filename.h
 
 /home/haxell99/Scrivania/Dragon's Lair/TitlePanel.h
 wx/wx.h
@@ -2118,6 +2066,22 @@ wx/osx/statusbr.h
 wx/generic/statusbr.h
 /usr/include/wx-3.0/wx/wx/generic/statusbr.h
 
+/usr/include/wx-3.0/wx/stdpaths.h
+wx/defs.h
+/usr/include/wx-3.0/wx/wx/defs.h
+wx/string.h
+/usr/include/wx-3.0/wx/wx/string.h
+wx/filefn.h
+/usr/include/wx-3.0/wx/wx/filefn.h
+wx/msw/stdpaths.h
+/usr/include/wx-3.0/wx/wx/msw/stdpaths.h
+wx/osx/core/stdpaths.h
+/usr/include/wx-3.0/wx/wx/osx/core/stdpaths.h
+wx/os2/stdpaths.h
+/usr/include/wx-3.0/wx/wx/os2/stdpaths.h
+wx/unix/stdpaths.h
+/usr/include/wx-3.0/wx/wx/unix/stdpaths.h
+
 /usr/include/wx-3.0/wx/stockitem.h
 wx/defs.h
 /usr/include/wx-3.0/wx/wx/defs.h
@@ -2445,6 +2409,8 @@ signal.h
 -
 
 /usr/include/wx-3.0/wx/unix/chkconf.h
+
+/usr/include/wx-3.0/wx/unix/stdpaths.h
 
 /usr/include/wx-3.0/wx/unix/tls.h
 pthread.h

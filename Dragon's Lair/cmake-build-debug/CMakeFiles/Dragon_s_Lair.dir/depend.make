@@ -1436,6 +1436,7 @@ CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/statbmp.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/statbox.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/stattext.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/statusbr.h
+CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/stdpaths.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/stockitem.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/stopwatch.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/strconv.h
@@ -1460,6 +1461,7 @@ CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/typeinfo.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/unichar.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/unix/app.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/unix/chkconf.h
+CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/unix/stdpaths.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/unix/tls.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/utils.h
 CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o: /usr/include/wx-3.0/wx/validate.h

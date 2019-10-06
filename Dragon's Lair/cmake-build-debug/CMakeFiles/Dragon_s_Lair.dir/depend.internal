@@ -1437,6 +1437,7 @@ CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o
  /usr/include/wx-3.0/wx/statbox.h
  /usr/include/wx-3.0/wx/stattext.h
  /usr/include/wx-3.0/wx/statusbr.h
+ /usr/include/wx-3.0/wx/stdpaths.h
  /usr/include/wx-3.0/wx/stockitem.h
  /usr/include/wx-3.0/wx/stopwatch.h
  /usr/include/wx-3.0/wx/strconv.h
@@ -1461,6 +1462,7 @@ CMakeFiles/Dragon_s_Lair.dir/TitlePanel.cpp.o
  /usr/include/wx-3.0/wx/unichar.h
  /usr/include/wx-3.0/wx/unix/app.h
  /usr/include/wx-3.0/wx/unix/chkconf.h
+ /usr/include/wx-3.0/wx/unix/stdpaths.h
  /usr/include/wx-3.0/wx/unix/tls.h
  /usr/include/wx-3.0/wx/utils.h
  /usr/include/wx-3.0/wx/validate.h

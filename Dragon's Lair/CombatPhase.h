@@ -8,6 +8,7 @@
 #include "wx/wx.h"
 #include "AutomatedSphere.h"
 
+
 class CombatPhase : public wxPanel {
 public:
     CombatPhase(wxWindow* id, int lvl);
